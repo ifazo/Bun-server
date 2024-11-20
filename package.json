@@ -2,8 +2,9 @@
   "name": "bun-server",
   "module": "index.ts",
   "scripts": {
-    "dev": "bun --watch run index.ts",
-    "build": "bun bun:tsc"
+    "start": "bun run index.ts",
+    "build": "bun build index.ts",
+    "watch": "bun --watch run index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
